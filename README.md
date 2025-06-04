@@ -16,7 +16,7 @@
 
     `cd prometheus-grafana`
 
-- Run the docker compose 
+- Run the docker compose    
  
     `docker-compose up -d`
 
@@ -75,7 +75,7 @@ To monitor Docker container metrics (CPU, memory, etc.), use cAdvisor.
 #### Update your docker-compose.yml:
 #### Add the following service under services::
 
-```json
+```
   cadvisor:
     image: gcr.io/cadvisor/cadvisor:latest
     container_name: cadvisor
